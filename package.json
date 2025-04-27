@@ -1,0 +1,25 @@
+{
+  "name": "shop4ever",
+  "version": "1.0.0",
+  "description": "An EverShop E-Commerce deployed as my first assignment for an Information Systems Fundamentals class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyzanuncio/shop4ever.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyzanuncio/shop4ever/issues"
+  },
+  "homepage": "https://github.com/emilyzanuncio/shop4ever#readme",
+  "dependencies": {
+    "@evershop/evershop": "^1.2.2"
+  }
+}
