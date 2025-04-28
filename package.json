@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "evershop install",
-    "build": "evershop build",
-    "start": "evershop start"
+    "build": "evershop build --skip-minify",
+    "start": "evershop start",
+    "user:create": "evershop user:create"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "homepage": "https://github.com/emilyzanuncio/shop4ever#readme",
   "dependencies": {
     "@evershop/evershop": "^1.2.2"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
